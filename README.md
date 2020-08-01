@@ -63,18 +63,14 @@ These instructions will get you a copy of the project up and running on your loc
 ## Live demo
 
 You can find a running system to test at
-[console.forestai.tech](http://console.forestai.tech/home)
-[data-service.eu-gb.cf.appdomain.cloud](https://data-service.eu-gb.cf.appdomain.cloud)
-[ml-server.eu-gb.cf.appdomain.cloud](https://ml-server.eu-gb.cf.appdomain.cloud)
+
+- [Forest Console](http://console.forestai.tech/home) - The admin webapp
+- [Data Server](https://data-service.eu-gb.cf.appdomain.cloud) - The data orchestration server
+- [ML Service](https://ml-server.eu-gb.cf.appdomain.cloud) - The audio classifer service
 
 ## Built with
 
-- [IBM Cloudant](https://cloud.ibm.com/catalog?search=cloudant#search_results) - The NoSQL database used
-- [IBM Cloud Functions](https://cloud.ibm.com/catalog?search=cloud%20functions#search_results) - The compute platform for handing logic
-- [IBM API Connect](https://cloud.ibm.com/catalog?search=api%20connect#search_results) - The web framework used
-- [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-- [Maven](https://maven.apache.org/) - Dependency management
-- [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+- [IBM Cloud Foundry](https://www.ibm.com/my-en/cloud/cloud-foundry?p1=Search&p4=43700056108279779&p5=e&cm_mmc=Search_Google-_-1S_1S-_-AS_IN-_-ibm%20cloud%20foundry_e&cm_mmca7=71700000065340837&cm_mmca8=kwd-336499027875&cm_mmca9=Cj0KCQjwgo_5BRDuARIsADDEntRWcREi8wJdRinabS_D-SMAW_b0EVIkedH8YLiXP7grZrbQUCmXXo8aAhlwEALw_wcB&cm_mmca10=453013934834&cm_mmca11=e&gclsrc=aw.ds&&gclid=Cj0KCQjwgo_5BRDuARIsADDEntRWcREi8wJdRinabS_D-SMAW_b0EVIkedH8YLiXP7grZrbQUCmXXo8aAhlwEALw_wcB) - App deployment service
 
 ## Contributing
 
