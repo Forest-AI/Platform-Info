@@ -41,7 +41,7 @@ Welcome to Forest AI ! A vigilant system that detects and alerts illegal defores
 
 ## How it Works
 
-![portal](doc/assets/images/forest-ai-gif.gif)
+![portal](doc/asset/images/forest-ai-gif.gif)
 
 ## The architecture
 
@@ -54,72 +54,18 @@ Welcome to Forest AI ! A vigilant system that detects and alerts illegal defores
 
 ## Project roadmap
 
-![Roadmap](roadmap.jpg)
+![Roadmap](doc/asset/forest-ai-roadmap)
 
 ## Getting started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```bash
-dnf install wget
-wget http://www.example.com/install.sh
-bash install.sh
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be, for example
-
-```bash
-export TOKEN="fffd0923aa667c617a62f5A_fake_token754a2ad06cc9903543f1e85"
-export EMAIL="jane@example.com"
-dnf install npm
-node samplefile.js
-Server running at http://127.0.0.1:3000/
-```
-
-And repeat
-
-```bash
-curl localhost:3000
-Thanks for looking at Code-and-Response!
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why, if you were using something like `mocha` for instance
-
-```bash
-npm install mocha --save-dev
-vi test/test.js
-./node_modules/mocha/bin/mocha
-```
-
-### And coding style tests
-
-Explain what these tests test and why, if you chose `eslint` for example
-
-```bash
-npm install eslint --save-dev
-npx eslint --init
-npx eslint sample-file.js
-```
-
 ## Live demo
 
-You can find a running system to test at [callforcode.mybluemix.net](http://callforcode.mybluemix.net/)
+You can find a running system to test at
+[console.forestai.tech](http://console.forestai.tech/home)
+[data-service.eu-gb.cf.appdomain.cloud](https://data-service.eu-gb.cf.appdomain.cloud)
+[ml-server.eu-gb.cf.appdomain.cloud](https://ml-server.eu-gb.cf.appdomain.cloud)
 
 ## Built with
 
