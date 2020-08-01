@@ -47,10 +47,10 @@ Welcome to Forest AI ! A vigilant system that detects and alerts illegal defores
 
 ![Forest AI architecture](/doc/asset/forest-ai-architecture.png)
 
-1. The sensors deployed in forest monitor and pushes raw alert into DB when unsual audio detected
+1. The **Forest Sensors** deployed in forest monitors and pushes raw alert into DB when unusual audio is heard
 2. **Data server** passes this raw data to **ML-service** which classifies alerts as chainsaw or no chainsaw. Both of the services are hosted on IBM Cloud Foundry
 3. If chainsaw detected then the alert is pushed into DB and Call/SMS alerts are generated using twillio API and sent to first responders
-4. New alerts are also shown in **Forest Console** on a map, which is used to manage network of Forest sensor
+4. Now alerts which are classfied will also be shown in **Forest Console** on a map, which is used to manage network of Forest sensor
 
 ## Project Roadmap
 
@@ -58,7 +58,7 @@ Welcome to Forest AI ! A vigilant system that detects and alerts illegal defores
 
 ## Getting started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+This project is divided into independant repositories - go through each repo's installation guide one by one. All 3 services mentioned above in live section are also available live for testing.
 
 ## Live demo
 
@@ -76,20 +76,11 @@ You can find a running system to test at
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
 ## Authors
 
-- **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/Code-and-Response/Project-Sample/graphs/contributors) who participated in this project.
+- **Vikas Singh** - _Initial work_ - [singh-vikas-m](https://github.com/singh-vikas-m)
+- **Ratan Singh** - _Initial work_ - [Ratansingh648](https://github.com/Ratansingh648)
 
 ## License
 
 This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details
-
-## Acknowledgments
-
-- Based on [Billie Thompson's README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
