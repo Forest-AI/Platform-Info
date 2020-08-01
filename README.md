@@ -1,4 +1,4 @@
-# ![Forest AI](/doc/asset/forest-name-logo-big.png?raw=true)
+# ![Forest AI](/doc/asset/forest-ai-name-logo.png?raw=true)
 
 [![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Slack](https://img.shields.io/badge/Join-Slack-blue)](https://join.slack.com/t/forest-ai-workspace/shared_invite/zt-ga90t9yr-xI3Dc9sYd2T5l1Hdd8TeJQ) [![Website](https://img.shields.io/badge/View-Website-blue)](https://forestai.tech/)
 
