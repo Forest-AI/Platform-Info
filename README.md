@@ -37,20 +37,20 @@ Welcome to Forest AI ! A vigilant system that detects and alerts illegal defores
 
 ## Demo video
 
-[![Watch the video](https://github.com/Code-and-Response/Liquid-Prep/blob/master/images/IBM-interview-video-image.png)](https://www.youtube.com/watch?v=bcqdxG92-RM)
+[![Watch the video](/doc/asset/forest-ai-screenshot.png)](https://www.youtube.com/watch?v=bcqdxG92-RM)
+
+## How it Works
+
+![portal](doc/assets/images/cluster_demo_vector.gif)
 
 ## The architecture
 
 ![Forest AI architecture](/doc/asset/forest-ai-architecture.png)
 
-1. The user navigates to the site and uploads a video file.
-2. Watson Speech to Text processes the audio and extracts the text.
-3. Watson Translation (optionally) can translate the text to the desired language.
-4. The app stores the translated text as a document within Object Storage.
-
-## Long description
-
-[More detail is available here](DESCRIPTION.md)
+1. The sensors deployed in forest monitor and pushes raw alert into DB when unsual audio detected
+2. **Data server** passes this raw data to **ML-service** which classifies alerts as chainsaw or no chainsaw. Both of the services are hosted on IBM Cloud Foundry
+3. If chainsaw detected then the alert is pushed into DB and Call/SMS alerts are generated using twillio API and sent to first responders
+4. New alerts are also shown in **Forest Console** on a map, which is used to manage network of Forest sensor
 
 ## Project roadmap
 
