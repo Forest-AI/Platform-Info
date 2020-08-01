@@ -41,7 +41,7 @@ Welcome to Forest AI ! A vigilant system that detects and alerts illegal defores
 
 ## How it Works
 
-![portal](doc/asset/images/forest-ai-gif.gif)
+![portal](doc/asset/forest-ai.gif)
 
 ## The architecture
 
@@ -52,9 +52,9 @@ Welcome to Forest AI ! A vigilant system that detects and alerts illegal defores
 3. If chainsaw detected then the alert is pushed into DB and Call/SMS alerts are generated using twillio API and sent to first responders
 4. New alerts are also shown in **Forest Console** on a map, which is used to manage network of Forest sensor
 
-## Project roadmap
+## Project Roadmap
 
-![Roadmap](doc/asset/forest-ai-roadmap)
+![Roadmap](doc/asset/forest-ai-roadmap.png)
 
 ## Getting started
 
