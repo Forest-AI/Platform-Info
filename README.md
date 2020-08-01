@@ -1,2 +1,1 @@
-# Platform-Info
-Description and overview of complete Forest AI platform and underlying technology 
+# ![Forest AI](/doc/asset/forest-name-logo-big.png?raw=true)
