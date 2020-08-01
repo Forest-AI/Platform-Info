@@ -41,7 +41,7 @@ Welcome to Forest AI ! A vigilant system that detects and alerts illegal defores
 
 ## How it Works
 
-![portal](doc/assets/images/cluster_demo_vector.gif)
+![portal](doc/assets/images/forest-ai-gif.gif)
 
 ## The architecture
 
