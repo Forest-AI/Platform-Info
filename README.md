@@ -1,6 +1,6 @@
 </br>
 <div align="center"> 
-<img src= https://github.com/Forest-AI/Platform-Info/blob/master/doc/asset/forest-ai-name-logo.png/>
+<img src= https://github.com/Forest-AI/Platform-Info/blob/master/doc/asset/forest-logo-name-small.png/>
 </br>
 </br>
 </br>
