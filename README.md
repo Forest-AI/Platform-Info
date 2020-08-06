@@ -1,6 +1,13 @@
-# ![Forest AI](/doc/asset/forest-ai-name-logo.png?raw=true)
+</br>
+<div align="center"> 
+<img src= https://github.com/Forest-AI/Platform-Info/blob/master/doc/asset/forest-ai-name-logo.png/>
+</br>
+</br>
+</br>
 
 [![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Slack](https://img.shields.io/badge/Join-Slack-blue)](https://join.slack.com/t/forest-ai-workspace/shared_invite/zt-ga90t9yr-xI3Dc9sYd2T5l1Hdd8TeJQ) [![Website](https://img.shields.io/badge/View-Website-blue)](https://forestai.tech/)
+
+</div>
 
 ## Contents
 
@@ -31,26 +38,50 @@ If we can design a system that can monitor whole forest area 24/7 and detect the
 
 Welcome to Forest AI ! A vigilant system that detects and alerts illegal deforestation in realtime. A smart solar powered device is deployed under tree canopies listening for all sorts of sounds. As soon as sound of chainsaw is detected in forest, device picks it up and sends an alert through a standard cellphone network to the nearest forest-ranger & first responders so that they can intervene immediately and stop it.
 
+</br>
+
 ## Demo video
+
+</br>
+</br>
 
 [![Watch the video](/doc/asset/forest-ai-screenshot.png)](https://www.youtube.com/watch?v=bcqdxG92-RM)
 
+</br>
+
 ## How it Works
 
-![portal](doc/asset/forest-ai.gif)
+</br>
+</br>
+
+<div align="center">
+<img src= https://github.com/Forest-AI/Platform-Info/blob/master/doc/asset/forest-ai.gif/>
+</div>
 
 ## The architecture
 
+</br>
+</br>
+
 ![Forest AI architecture](/doc/asset/forest-ai-architecture.png)
+
+</br>
 
 1. The **Forest Sensors** deployed in forest monitors and pushes raw alert into DB when unusual audio is heard
 2. **Data server** passes this raw data to **ML-service** which classifies alerts as chainsaw or no chainsaw. Both of the services are hosted on IBM Cloud Foundry
 3. If a chainsaw sound is detected then the alert is pushed into DB and Call/SMS alerts are generated using twillio API and sent to first responders
 4. Now alerts which are classfied will also be shown in **Forest Console** on a map, which is used to manage network of Forest sensor
 
+</br>
+
 ## Project Roadmap
 
-![Roadmap](doc/asset/forest-ai-roadmap.png)
+</br>
+</br>
+
+<div align="center">
+<img width="550" height="1500" src= https://github.com/Forest-AI/Platform-Info/blob/master/doc/asset/forest-ai-roadmap.png/>
+</div>
 
 ## Getting started
 
