@@ -80,7 +80,7 @@ Welcome to Forest AI ! A vigilant system that detects and alerts illegal defores
 </br>
 
 <div align="center">
-<img width="550" height="1500" src= https://github.com/Forest-AI/Platform-Info/blob/master/doc/asset/forest-ai-roadmap.png/>
+<img width="580" height="1500" src= https://github.com/Forest-AI/Platform-Info/blob/master/doc/asset/forest-ai-roadmap.png/>
 </div>
 
 ## Getting started
